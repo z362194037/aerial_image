@@ -3,10 +3,9 @@ I am trying to draw the rectangel in the aerial image. The data of the cars and 
 
 read the data and image
 
-src_txt_dir  = "/home/gnss/learn/weixingtupian/2012-04-26-Muenchen-Tunnel_4K0G0110_pkw.samp"
-
-img = cv2.imread('2012-04-26-Muenchen-Tunnel_4K0G0110.JPG')
-plt.imshow(img)
+		src_txt_dir  = "/home/gnss/learn/weixingtupian/2012-04-26-Muenchen-Tunnel_4K0G0110_pkw.samp"
+		img = cv2.imread('2012-04-26-Muenchen-Tunnel_4K0G0110.JPG')
+		plt.imshow(img)
 
 draw the rectangel
 rect = patches.Rectangle((int(arr[2])-0.5*int(arr[4]),int(arr[3])-0.5*int(arr[5])), int(arr[4]),int(arr[5]),
@@ -18,4 +17,4 @@ rect = patches.Rectangle((int(arr[2])-0.5*int(arr[4]),int(arr[3])-0.5*int(arr[5]
     plt.gca().add_patch(rect)
 
 the result:
-file:///home/gnss/Pictures/Screenshot%20from%202017-06-11%2011:07:37.png
+![github]file:///home/gnss/Pictures/Screenshot%20from%202017-06-11%2011:07:37.png
