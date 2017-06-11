@@ -17,4 +17,4 @@ draw the rectangel
     		plt.gca().add_patch(rect)
 
 the result:
-![]()
+![](https://github.com/z362194037/aerial_image/blob/master/Screenshot%20from%202017-06-11%2011:07:37.png)
