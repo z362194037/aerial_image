@@ -4,6 +4,7 @@ I am trying to draw the rectangel in the aerial image. The data of the cars and 
 read the data and image
 
 src_txt_dir  = "/home/gnss/learn/weixingtupian/2012-04-26-Muenchen-Tunnel_4K0G0110_pkw.samp"
+
 img = cv2.imread('2012-04-26-Muenchen-Tunnel_4K0G0110.JPG')
 plt.imshow(img)
 
