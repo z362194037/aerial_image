@@ -6,8 +6,8 @@ read the data and image
 		src_txt_dir  = "/home/gnss/learn/weixingtupian/2012-04-26-Muenchen-Tunnel_4K0G0110_pkw.samp"
 		img = cv2.imread('2012-04-26-Muenchen-Tunnel_4K0G0110.JPG')
 		plt.imshow(img)
-
 draw the rectangel
+
 		rect = patches.Rectangle((int(arr[2])-0.5*int(arr[4]),int(arr[3])-0.5*int(arr[5])), int(arr[4]),int(arr[5]),
 								fill=False,
 								edgecolor='g', linewidth=1)
