@@ -14,7 +14,7 @@ draw the rectangel
 		t = matplotlib.transforms.Affine2D().rotate_around(float(arr[2]), float(arr[3]),\  #.rotate_around expects it's anglular argument to be in radiants
                 -float(arr[6])*np.pi/180)
 		rect.set_transform(t + plt.gca().transData)
-    plt.gca().add_patch(rect)
+    		plt.gca().add_patch(rect)
 
 the result:
-![github]file:///home/gnss/Pictures/Screenshot%20from%202017-06-11%2011:07:37.png
+
