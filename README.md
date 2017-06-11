@@ -8,9 +8,9 @@ read the data and image
 		plt.imshow(img)
 
 draw the rectangel
-rect = patches.Rectangle((int(arr[2])-0.5*int(arr[4]),int(arr[3])-0.5*int(arr[5])), int(arr[4]),int(arr[5]),
-						fill=False,
-						edgecolor='g', linewidth=1)
+		rect = patches.Rectangle((int(arr[2])-0.5*int(arr[4]),int(arr[3])-0.5*int(arr[5])), int(arr[4]),int(arr[5]),
+								fill=False,
+								edgecolor='g', linewidth=1)
 		t = matplotlib.transforms.Affine2D().rotate_around(float(arr[2]), float(arr[3]),\  #.rotate_around expects it's anglular argument to be in radiants
                 -float(arr[6])*np.pi/180)
 		rect.set_transform(t + plt.gca().transData)
